@@ -3,7 +3,7 @@
 module.exports = app => {
   class HomeController extends app.Controller {
     * index() {
-      this.ctx.body = 'hi, welcome to zhiming\' website!!!!! ';
+      this.ctx.body = 'hi, welcome to zhiming\'s website!!!!! ';
     }
   }
   return HomeController;
