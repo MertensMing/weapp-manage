@@ -12,7 +12,7 @@ module.exports = appInfo => {
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {
-      '.tpl': 'nunjucks'
+      '.tpl': 'nunjucks',
     },
   };
 
