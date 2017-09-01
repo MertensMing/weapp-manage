@@ -17,6 +17,7 @@
     "egg-mock": "^3.9.0",
     "eslint": "^4.3.0",
     "eslint-config-egg": "^5.0.0",
+    "ghooks": "^2.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
@@ -33,6 +34,11 @@
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
     "autod": "autod"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "echo 233"
+    }
   },
   "ci": {
     "version": "6, 8"
