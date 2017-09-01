@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="Zh-cn">
   <head>
-    <title>我们的黄金时段</title>
+    <title>黄金时段</title>
     <meta charset="utf-8">
     <link rel="icon" href="http://ov9z0zlev.bkt.clouddn.com/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="{{ helper.formatCssUrl('vendor.css') }}" />
