@@ -37,7 +37,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "echo 233"
+      "post-update": "echo 233"
     }
   },
   "ci": {
