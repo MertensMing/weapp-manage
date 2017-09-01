@@ -1,5 +1,4 @@
 {
-  "app/index.css": "style/app/index.4ed82eabf8cf36f6e46aeea1e9e31dac.css",
-  "home/index.css": "style/home/index.261eee88c36b08cc33ef0711d98408f3.css",
-  "vendor.css": "style/vendor.af3a27a27da9d9ff30cb0056b40c7db9.css"
+  "base.css": "style/base.827c9375bcc9f8e17893a6f01c673270.css",
+  "home/index.css": "style/home/index.3a9efb8848516d910457d74d6709f6d0.css"
 }

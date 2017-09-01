@@ -11,7 +11,8 @@ module.exports = {
     if (env === 'local') {
       return `http://ov9z0zlev.bkt.clouddn.com/${url}`;
     }
-    return `http://ov9z0zlev.bkt.clouddn.com/${version[url]}`;
+    const sourceUrl = version[url] || url;
+    return `http://ov9z0zlev.bkt.clouddn.com/${sourceUrl}`;
   },
   formatCssUrl(url) {
     const env = this.app.env;
@@ -20,6 +21,7 @@ module.exports = {
     if (env === 'local') {
       return `http://ov9z0zlev.bkt.clouddn.com/style/${url}`;
     }
-    return `http://ov9z0zlev.bkt.clouddn.com/${version[url]}`;
+    const sourceUrl = version[url] || url;
+    return `http://ov9z0zlev.bkt.clouddn.com/${sourceUrl}`;
   },
 };
