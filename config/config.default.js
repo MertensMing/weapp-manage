@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = appInfo => {
+module.exports = () => {
   const config = {};
 
   // should change to your own

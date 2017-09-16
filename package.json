@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "egg": "^1.7.0",
+    "egg-mysql": "^3.0.0",
     "egg-scripts": "^1.0.0",
     "egg-view": "^1.1.2",
     "egg-view-nunjucks": "^2.1.3",
